@@ -1,28 +1,17 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const path = require('path');
+const base = require('./webpack.config-base.js')
 
 module.exports = {
+    ...base,
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
         static: './dist',
     },
-    entry: './src/index.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[contenthash].js',
-    },
-    plugins: [new HtmlWebpackPlugin(
-        {
-            title: 'webpack 学习',
-            template: 'src/assets/test.html'
-        }
-    )],
     module: {
         rules: [
             {
-                test: /\.css$/i,
-                use: ["style-loader", "css-loader"],
+                test: /\.css$/,
+                use:["style-loader","css-loader"],
             },
         ],
     },

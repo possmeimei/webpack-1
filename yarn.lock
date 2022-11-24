@@ -1443,6 +1443,13 @@
   "resolved" "https://registry.npmmirror.com/mimic-fn/-/mimic-fn-2.1.0.tgz"
   "version" "2.1.0"
 
+"mini-css-extract-plugin@^2.7.0":
+  "integrity" "sha512-auqtVo8KhTScMsba7MbijqZTfibbXiBNlPAQbsVt7enQfcDYLdgG57eGxMqwVU3mfeWANY4F1wUg+rMF+ycZgw=="
+  "resolved" "https://registry.npmmirror.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.7.0.tgz"
+  "version" "2.7.0"
+  dependencies:
+    "schema-utils" "^4.0.0"
+
 "minimalistic-assert@^1.0.0":
   "integrity" "sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A=="
   "resolved" "https://registry.npmmirror.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz"
